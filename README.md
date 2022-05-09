@@ -11,3 +11,14 @@ On y trouvera : des retours d'expérience, des tutos, des exemples de projets r�
 
 
 ## Se servir de la Bibliothèque et y contribuer
+
+- ⭐ star nous sur GitHub, tu la retrouveras facilement
+- navigue dans la bibliothèque à partir de l'index
+
+Y contribuer - WIP
+
+## Index
+
+Voici la liste des livres de la Bibliothèque :
+
+- [Liste des projets des élèves en data analyse](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/liste_projets_data_analyse.md)
