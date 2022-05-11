@@ -1,8 +1,8 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP) > [Liste des projets des élèves Data Analyse](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/liste_projets_data_analyse.md) > Les librairies Python de la data
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP) > [Liste des projets des élèves Data Analyse](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/liste_projets_data_analyse.md) > Mettre en place des dashboards automatisés
 
 ___
 
-# Les librairies Python de la data
+# Mettre en place des dashboards automatisés
 
 ![](https://picsum.photos/1024/400)
 
@@ -21,40 +21,35 @@ N'hésitez pas à commenter un projet en utilisant le format suivant :
 N'hésitez pas à ajouter des détails sur vous (ex: votre contact si vous acceptez d'être contacté(e)) ou sur le projet si vous l'avez créé.
 
 
-## 📚 Les librairies Python de la data - les projets
+## 📚 Mettre en place des dashboards automatisés
 ### Promo Automne 2021
 
 #### Victoire
-[Lien projet 1](https://github.com/bigdduwa/THP-DATA_1)
+[Lien projet](https://github.com/bigdduwa/THP_DATA-W3-D1)
 
 #### Sébastien
-[Lien 1 projet](https://github.com/sebastienrombaut/data_university) • [Lien 2 projet](https://github.com/sebastienrombaut/data_museum)
+[Lien projet](https://github.com/sebastienrombaut/data_tableau)
 
 #### Ronan
-[Lien projet](https://github.com/bigdduwa/THP-DATA_1)
+[Lien projet](https://github.com/RonanLamour/Tableau-OfficeUS)
 
 #### Valentin
-[Lien projet](https://github.com/valvermes/python1)
+[Lien projet](https://github.com/valvermes/Tableau1)
 
 #### Christian
-[Lien projet](https://github.com/christian29200/THP_Pandas_Numpy)
+[Lien projet](https://github.com/christian29200/THP11_Analyse_Tableau_de_bord)
 
 #### Clara
-[Lien projet](https://github.com/claramoreschi/THP_DataAnalyst_studies)
-
-#### Julien
-[Lien projet](https://github.com/JulienSisi/S04_Python_19.10.21-)
+[Lien projet](https://github.com/claramoreschi/THP_DataAnalyst_TableauSoftware_KPIs)
 
 ### Promo Hiver 2022
 
 #### Marie
-[Lien projet](https://github.com/MarieLebreton/Python_Museum)
+[Lien projet](https://github.com/MarieLebreton/TABLEAU)
 
 #### Samuel
-[Lien projet](https://github.com/SamkaaDev/tour_de_france_des_musees)
+[Lien projet](https://github.com/SamkaaDev/sales_analysis_DMPC)
 
 #### Yvon
-[Lien projet](https://github.com/ekwayv8/-The-Tour-de-France-of-museums-/blob/main/README.md)
-
-
+[Lien projet](https://github.com/ekwayv8/Dashboard-D.M.P.C)
 

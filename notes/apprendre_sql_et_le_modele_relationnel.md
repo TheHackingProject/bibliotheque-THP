@@ -1,8 +1,8 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP) > [Liste des projets des élèves Data Analyse](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/liste_projets_data_analyse.md) > Les librairies Python de la data
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP) > [Liste des projets des élèves Data Analyse](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/liste_projets_data_analyse.md) > Apprendre SQL et le modèle relationnel
 
 ___
 
-# Les librairies Python de la data
+# Apprendre SQL et le modèle relationnel
 
 ![](https://picsum.photos/1024/400)
 
@@ -21,40 +21,39 @@ N'hésitez pas à commenter un projet en utilisant le format suivant :
 N'hésitez pas à ajouter des détails sur vous (ex: votre contact si vous acceptez d'être contacté(e)) ou sur le projet si vous l'avez créé.
 
 
-## 📚 Les librairies Python de la data - les projets
+## 📚 Apprendre SQL et le modèle relationnel
+
 ### Promo Automne 2021
 
 #### Victoire
-[Lien projet 1](https://github.com/bigdduwa/THP-DATA_1)
+[Lien projet](https://github.com/bigdduwa/THP-DATA_2/tree/master)
 
 #### Sébastien
-[Lien 1 projet](https://github.com/sebastienrombaut/data_university) • [Lien 2 projet](https://github.com/sebastienrombaut/data_museum)
+[Lien projet](https://github.com/sebastienrombaut/data_nosql)
 
 #### Ronan
-[Lien projet](https://github.com/bigdduwa/THP-DATA_1)
+[Lien projet](https://github.com/RonanLamour/SQL-Day)
 
 #### Valentin
-[Lien projet](https://github.com/valvermes/python1)
+[Lien projet](https://github.com/valvermes/SQL1)
 
 #### Christian
-[Lien projet](https://github.com/christian29200/THP_Pandas_Numpy)
+[Lien projet](https://github.com/christian29200/MongoDB_PowerBI)
 
 #### Clara
-[Lien projet](https://github.com/claramoreschi/THP_DataAnalyst_studies)
+[Lien projet](https://github.com/claramoreschi/THP_DataAnalyst_MongoDB)
 
 #### Julien
-[Lien projet](https://github.com/JulienSisi/S04_Python_19.10.21-)
+[Lien projet](https://github.com/JulienSisi/S04_DataBases_21.10.21)
+
 
 ### Promo Hiver 2022
 
 #### Marie
-[Lien projet](https://github.com/MarieLebreton/Python_Museum)
+[Lien projet](https://github.com/MarieLebreton/SQL)
 
 #### Samuel
-[Lien projet](https://github.com/SamkaaDev/tour_de_france_des_musees)
+[Lien projet](https://github.com/SamkaaDev/THPData_sql_training)
 
 #### Yvon
-[Lien projet](https://github.com/ekwayv8/-The-Tour-de-France-of-museums-/blob/main/README.md)
-
-
-
+[Lien projet](https://github.com/ekwayv8/Panama-Papers)
