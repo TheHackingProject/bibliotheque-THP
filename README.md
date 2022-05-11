@@ -13,18 +13,18 @@ On y trouvera : des retours d'expérience, des tutos, des exemples de projets et
 ## Se servir de la Bibliothèque et y contribuer
 
 - ⭐ star nous sur GitHub, tu la retrouveras facilement
-- navigue dans la bibliothèque à partir de l'index
+- navigue dans la bibliothèque à partir de [l'Index](https://github.com/TheHackingProject/bibliotheque-THP#index)
 
 
 Pour y contribuer, [créer une Pull Request](https://careerkarma.com/blog/git-pull-request/) contenant les modifications suivantes :
 
-- Ta nouvelle contribution, utilisant comme template : `notes/modèle_note.md`
+- Ta nouvelle contribution, utilisant comme template : `notes/modèle_note.md`  
   OU la modification d'un fichier existant. 
-    Ex : ajouter un lien à une `Liste des [...].md`
-    Ex : ajouter un lien à un des "index principaux"
-    Ex : mettre à jour une ressource obsolète
-- Un lien vers ta contribution à la liste dans [l'Index](https://github.com/TheHackingProject/bibliotheque-THP#index) comme suit : 
-- Un lien vers ta contribution dans les "index principaux" si le thème de ta contribution y correspond (comme indiqué ci-dessus).
+    > Ex : ajouter un lien à une `Liste des [...].md`  
+    > Ex : ajouter un lien à un des **index principaux**  
+    > Ex : mettre à jour une ressource obsolète  
+- Un lien vers ta contribution dans la **liste des contributions** de [l'Index](https://github.com/TheHackingProject/bibliotheque-THP#index). 
+- Un lien vers ta contribution dans les **index principaux** si le thème de ta contribution y correspond (comme indiqué ci-dessus).
 - Pour les deux précédents points, les liens sont à intégrer comme suit :
 ```
 [nom de ma contribution](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/nom_de_ma_contribution)
