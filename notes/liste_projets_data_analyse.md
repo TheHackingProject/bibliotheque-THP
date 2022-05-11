@@ -18,44 +18,8 @@ Ce livre permet :
 
 ## 📚 Liste des projets
 
-### Les librairies Python de la data
+- [Les librairies Python de la data]()
 
-#### Promo Automne 2021
-
-##### Victoire
-[Lien projet 1](https://github.com/bigdduwa/THP-DATA_1)
-
-##### Sébastien
-[Lien 1 projet](https://github.com/sebastienrombaut/data_university) • [Lien 2 projet](https://github.com/sebastienrombaut/data_museum)
-
-##### Ronan
-[Lien projet](https://github.com/bigdduwa/THP-DATA_1)
-
-##### Valentin
-[Lien projet](https://github.com/valvermes/python1)
-
-##### Christian
-[Lien projet](https://github.com/christian29200/THP_Pandas_Numpy)
-
-##### Clara
-[Lien projet](https://github.com/claramoreschi/THP_DataAnalyst_studies)
-
-##### Julien
-[Lien projet](https://github.com/JulienSisi/S04_Python_19.10.21-)
-
-#### Promo Hiver 2022
-
-##### Marie
-
-[Lien projet](https://github.com/MarieLebreton/Python_Museum)
-
-##### Samuel
-
-[Lien projet](https://github.com/SamkaaDev/tour_de_france_des_musees)
-
-##### Yvon
-
-[Lien projet](https://github.com/ekwayv8/-The-Tour-de-France-of-museums-/blob/main/README.md)
 
 
 ### Apprendre SQL et le modèle relationnel
