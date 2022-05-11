@@ -18,7 +18,7 @@ Ce livre permet :
 
 ## 📚 Liste des projets
 
-- [Les librairies Python de la data]()
+- [Les librairies Python de la data](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/librairies_python_data.md)
 
 
 
