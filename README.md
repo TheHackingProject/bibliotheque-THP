@@ -18,11 +18,11 @@ On y trouvera : des retours d'expérience, des tutos, des exemples de projets et
 
 Pour y contribuer, [créer une Pull Request](https://careerkarma.com/blog/git-pull-request/) contenant les modifications suivantes :
 
-- Ta nouvelle contribution, utilisant comme template : `notes/modèle_note.md`  
-  OU la modification d'un fichier existant. 
-    > Ex : ajouter un lien à une `Liste des [...].md`  
+- Ta nouvelle contribution [en suivant ce template](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/modele_note.md) si elle est écrite  
+  **OU** la modification d'un fichier existant. 
+    > Ex : ajouter une URL à une `Liste des [...].md`  
     > Ex : ajouter un lien à un des **index principaux**  
-    > Ex : mettre à jour une ressource obsolète  
+    > Ex : mettre à jour une contribution obsolète  
 - Un lien vers ta contribution dans la **liste des contributions** de [l'Index](https://github.com/TheHackingProject/bibliotheque-THP#index). 
 - Un lien vers ta contribution dans les **index principaux** si le thème de ta contribution y correspond (comme indiqué ci-dessus).
 - Pour les deux précédents points, les liens sont à intégrer comme suit :
@@ -31,11 +31,6 @@ Pour y contribuer, [créer une Pull Request](https://careerkarma.com/blog/git-pu
 ``` 
   
   
-## Index
+## Index Principaux
 
-Voici les **index principaux** de la Bibliothèque : 
 - [Liste des projets des élèves en data analyse](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/liste_projets_data_analyse.md)
-  
-  
-Voici la **liste des contributions** de la Bibliothèque :
-- ...
