@@ -1,13 +1,13 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP) > [Tables Rondes] > Les Tips and Tricks d'alumnis - Mieux coder
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP) > [Tables Rondes](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/sommaires/tables_rondes.md) > Tips and Tricks d'alumnis - Mieux coder
 
 ___
 
-# Les Tips and Tricks d'alumnis - Mieux coder
+# Tips and Tricks d'alumnis - Mieux coder
 
 ![](https://picsum.photos/1024/400)
 
 
-## 1. Les Tips and Tricks d'alumnis - Mieux coder : le concept
+## 1. Tips and Tricks d'alumnis - Mieux coder : le concept
 
 ### 1.1. Le Sujet
 
