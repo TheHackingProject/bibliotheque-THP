@@ -33,4 +33,10 @@ Pour y contribuer, [créer une Pull Request](https://careerkarma.com/blog/git-pu
   
 ## Index Principaux
 
-- [Liste des projets des élèves en data analyse](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/liste_projets_data_analyse.md)
+- [Ateliers]()
+- [Conférences]()
+- [Missions]()
+- [Projets Finaux]()
+- [Tables Rondes]()
+- [Témoignages]()
+
