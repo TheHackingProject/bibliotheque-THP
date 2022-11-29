@@ -15,8 +15,8 @@ Le concept "Table Ronde" est une conférence avec plusieurs dévs alumnis en tan
 
 ## 📚 Liste des tables rondes
 
-- [Le métier de data analyste]()
-- [5 légendes urbaine sur le marché du recrutement tech, vrai ou faux]()
+- [Le métier de data analyste](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/Le%20m%C3%A9tier%20de%20data%20analyste.md)
+- [5 légendes urbaine sur le marché du recrutement tech, vrai ou faux](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/5%20l%C3%A9gendes%20urbaine%20sur%20le%20march%C3%A9%20du%20recrutement%20tech%2C%20vrai%20ou%20faux.md)
 - [Être freelance après THP - vol. 1]()
 - [Le bien-être et le bien-vivre du dév]()
 - [Le quotidien de dev]()
@@ -25,7 +25,8 @@ Le concept "Table Ronde" est une conférence avec plusieurs dévs alumnis en tan
 - [Comment trouver du travail après THP ? Vol. 2]()
 - [Comment trouver du travail après THP ? Vol. 3]()
 - [Comment trouver du travail après THP ? Vol. 4]()
-- [Comment trouver du travail après THP ? Vol. 5]()
 - [L'insertion pro selon les alumni tous frais]()
 - [Comment créer et maintenir une commu THP dans sa ville]()
+- [Les Tips and Tricks d'alumnis - Mieux coder]()
+- 
 
