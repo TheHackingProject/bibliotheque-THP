@@ -28,4 +28,4 @@ Le concept "Table Ronde" est une conférence avec plusieurs dévs alumnis en tan
 - [Le métier de data analyste](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/Le%20m%C3%A9tier%20de%20data%20analyste.md)
 - [Tips and Tricks d'alumnis - Mieux coder](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/Tips%20and%20Tricks%20d'alumnis%20-%20Mieux%20coder.md)
 - [Comment créer et maintenir une commu THP dans sa ville](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/Comment%20cr%C3%A9er%20et%20maintenir%20une%20commu%20THP%20dans%20sa%20ville.md)
-- [Qualités à développer pour la vie pro]()
+- [Qualités à développer pour la vie pro](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/Qualit%C3%A9s%20%C3%A0%20d%C3%A9velopper%20pour%20la%20vie%20pro.md)
