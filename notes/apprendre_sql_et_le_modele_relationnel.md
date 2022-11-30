@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP) > [Liste des projets des élèves Data Analyse](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/liste_projets_data_analyse.md) > Apprendre SQL et le modèle relationnel
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP) > [Liste des projets des élèves Data Analyse](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/sommaires/liste_projets_data_analyse.md) > Apprendre SQL et le modèle relationnel
 
 ___
 
