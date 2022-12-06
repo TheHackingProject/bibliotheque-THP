@@ -29,3 +29,4 @@ Le concept "Table Ronde" est une conférence avec plusieurs dévs alumnis en tan
 - [Tips and Tricks d'alumnis - Mieux coder](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/tips_and_tricks_d_alumnis-mieux_coder.md)
 - [Comment créer et maintenir une commu THP dans sa ville](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/comment_creer_et_maintenir_une_commu_thp_dans_sa_ville.md)
 - [Qualités à développer pour la vie pro](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/qualites_a_developper_pour_la_vie_pro.md)
+- [Comment trouver un travail ou un stage](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/comment_trouver_un_travail_ou_un_stage.md)
