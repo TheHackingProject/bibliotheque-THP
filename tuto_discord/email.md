@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/sommaires/discord.md) > Email
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/sommaires/tuto_discord.md) > Email
 
 ___
 
