@@ -34,9 +34,9 @@ Pour y contribuer, [créer une Pull Request](https://careerkarma.com/blog/git-pu
 ## Index Principaux
 
 - [Ateliers]()
-- [Conférences]()
 - [Missions]()
 - [Projets Finaux]()
 - [Tables Rondes](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/sommaires/tables_rondes.md)
 - [Liste des projets data analyste](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/sommaires/liste_projets_data_analyse.md)
+- [Discord](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/sommaires/discord.md)
 
