@@ -13,4 +13,4 @@ Pas de panique ! Pour remédier à ceci, tu as juste à envoyer le message que t
 >Vérifie bien que tu as le rôle "Présentation en cours et profil non complet" et que tu as bien accès à la chaîne de présentation de la communauté 😉
 
 
-[Précédant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/discord/sur_discord.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/discord/informations_de_profil.md)
+[Précédant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/sur_discord.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/informations_de_profil.md)
