@@ -18,7 +18,6 @@ Ne t'en fais pas, avec ce tutoriel, tu auras les armes pour utiliser Discord ave
 
 ## 📚 Sommaires
 
-- [Introduction à Discord](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/introduction_a_discord.md)
 - [C'est quoi Discord ?](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/cest_quoi_discord.md)
 - [Philosophie de Discord à THP](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/philosophie_de_discord_a_thp.md)
 - [Invitation sur le Discord](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/invitation_sur_le_discord.md)
