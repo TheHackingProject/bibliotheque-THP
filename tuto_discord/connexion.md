@@ -13,4 +13,4 @@ Il te faudra rejoindre notre Discord. Une fois que tu as cet écran, tu peux rej
 >Avant de pouvoir rejoindre le Discord, il te faudra confirmer ton adresse email. Va sur dans tes emails / spams et confirme-la.
 
 
-[Précédant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/email.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/telecharger_discord.md)
+[Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/email.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/telecharger_discord.md)

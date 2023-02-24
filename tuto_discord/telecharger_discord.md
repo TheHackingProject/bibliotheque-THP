@@ -15,4 +15,4 @@ Nous allons télécharger le logiciel Discord qui est bien mieux pour son utilis
 Va sur [la page de téléchargement](https://discord.com/download), puis télécharge Discord pour ton ordinateur. Discord existe pour Windows, macOS, et Linux.
 
 
-[Précédant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/connexion.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/telecharger_installer.md)
+[Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/connexion.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/telecharger_installer.md)

@@ -15,4 +15,4 @@ Il est important que tu les intègres et que nous te les répétions.
 >**Lis les règles** ! Il n'y a rien de plus insupportable que quelqu'un qui ne joue pas le jeu des règles (qui viendront lors de ce tutoriel) et qui double tout le monde pour SON problème ou qui poste son message dans la mauvaise chaîne  
 
 
-[Précédant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/cest_quoi_discord.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/invitation_sur_le_discord.md)
+[Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/cest_quoi_discord.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/invitation_sur_le_discord.md)
