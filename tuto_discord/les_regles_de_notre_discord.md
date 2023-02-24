@@ -17,4 +17,4 @@ Si tu respectes ces règles, tout ira bien.
 >Poste dans la bonne chaîne ! Demander de l'aide dans une chaîne dédiée à la communauté sera très mal vu, et nous risquons de te le faire remarquer et d'effacer ton message
 
 
-[Précédant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/formatage.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/respect_des_regles.md)
+[Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/formatage.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/respect_des_regles.md)

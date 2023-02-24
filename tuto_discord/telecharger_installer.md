@@ -9,4 +9,4 @@ ___
 Installe Discord, ouvre-le, puis connecte-toi.
 
 
-[Précédant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/telecharger_discord.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/sur_discord.md)
+[Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/telecharger_discord.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/sur_discord.md)

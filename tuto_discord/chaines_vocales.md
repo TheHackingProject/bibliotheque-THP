@@ -13,4 +13,4 @@ Cela te présentera chaque jour à de nouvelles personnes avec qui tu pourras in
 Tu pourras te créer des affinités et constituer des groupes avec des personnes que tu apprécies tout particulièrement. 
 
 
-[Précédant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/les_chaines.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/naviguer.md)
+[Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/les_chaines.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/naviguer.md)

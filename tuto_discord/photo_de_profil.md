@@ -13,4 +13,4 @@ Cependant, sache que c'est apprécié, et plus humanisant de parler à un vrai p
 Pour ceci, tu peux aller dans le menu pour éditer son compte, en cliquant sur la ⚙️ en bas à droite. Tu peux décider de ton pseudo unique à tous tes discords (celui que tu veux), ainsi que la photo de profil unique à tous tes Discord.
 
 
-[Précédant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/informations_de_profil.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/parametres.md)
+[Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/informations_de_profil.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/parametres.md)

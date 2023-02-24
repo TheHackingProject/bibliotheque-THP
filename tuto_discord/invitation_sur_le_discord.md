@@ -15,4 +15,4 @@ Voici le lien d'inscription au Discord. Clique dessus et continue en même temps
 [**INVITATION AU DISCORD**](https://discord.com/login)
 
 
-[Précédant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/philosophie_de_discord_a_thp.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/email.md)
+[Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/philosophie_de_discord_a_thp.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/email.md)

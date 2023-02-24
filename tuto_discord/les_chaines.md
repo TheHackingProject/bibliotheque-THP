@@ -23,4 +23,4 @@ Voici d'autres chaînes qui te seront disponibles une fois que tu auras complét
 Il existe bien d'autres chaînes que tu peux parcourir.
 
 
-[Précédant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/les_regles.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/chaines_vocales.md)
+[Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/les_regles.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/chaines_vocales.md)
