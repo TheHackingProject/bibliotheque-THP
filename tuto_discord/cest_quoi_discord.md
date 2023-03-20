@@ -11,5 +11,7 @@ Maintenant que tu as vu ce qu'est que Discord, nous allons te donner la philosop
 
 
 <div align="center">
+
 [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/philosophie_de_discord_a_thp.md)
+
 </div>
