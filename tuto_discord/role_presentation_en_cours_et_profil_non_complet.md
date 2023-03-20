@@ -8,7 +8,11 @@ Normalement, tu devrais avoir le rôle "Présentation en cours et profil non com
 
 Si tu as seulement accès aux chaînes publiques, cela peut être dû au fait que tu as déjà rejoint notre Discord, ou que Discord a buggé.
 
-Pas de panique ! Pour remédier à ceci, tu as juste à envoyer le message que tu as ressus dans le mail de la part de THP.
+Pas de panique ! Pour remédier à ceci, tu as juste à envoyer "moussaillon" en message privé au bot HackBot, voici un exemple en image :
+
+![](https://i.imgur.com/GTv6YKY.png)
+
+>Pas "Moussaillon", ni "MOUSSAILLON", mais "moussaillon"
 
 >Vérifie bien que tu as le rôle "Présentation en cours et profil non complet" et que tu as bien accès à la chaîne de présentation de la communauté 😉
 
