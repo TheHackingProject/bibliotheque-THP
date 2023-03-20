@@ -19,4 +19,8 @@ Ainsi, mets dans ce pseudo ton **Prénom Nom**.
 >On le répète : mets ton prénom et ton nom, sinon tu seras bloqué et tu n'auras accès à rien 😉
 
 
-[Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/role_presentation_en_cours_et_profil_non_complet.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/photo_de_profil.md)
+<div align="center">
+
+[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/role_presentation_en_cours_et_profil_non_complet.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/photo_de_profil.md)
+
+</div>

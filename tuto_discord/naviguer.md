@@ -15,4 +15,8 @@ Par défaut, Discord donne accès à toutes les chaînes qui te sont disponibles
 >Évite de mute les salons d'annonces, tu pourrais manquer énormément de contenu intéressant
 
 
-[Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/chaines_vocales.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/presente-toi.md)
+<div align="center">
+
+[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/chaines_vocales.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/presente-toi.md)
+
+</div>

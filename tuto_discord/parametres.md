@@ -9,4 +9,8 @@ ___
 Maintenant tu peux paramétrer quelques préférences. Dans la rubrique des paramètres, modifie-les comme tu le veux.
 
 
-[Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/photo_de_profil.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/discord.md)
+<div align="center">
+
+[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/photo_de_profil.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/discord.md)
+
+</div>
