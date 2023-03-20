@@ -9,4 +9,8 @@ ___
 Te voici sur le Discord. Afin d'éviter de te perdre, nous allons te montrer comment paramétrer Discord pour que tout se passe au mieux.
 
 
-[Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/telecharger_installer.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/role_presentation_en_cours_et_profil_non_complet.md)
+<div align="center">
+
+[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/telecharger_installer.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/role_presentation_en_cours_et_profil_non_complet.md)
+
+</div>

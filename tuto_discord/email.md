@@ -9,4 +9,8 @@ ___
 Il te suffit de faire une inscription / connexion classique. 
 
 
-[Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/invitation_sur_le_discord.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/connexion.md)
+<div align="center">
+
+[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/invitation_sur_le_discord.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/connexion.md)
+
+</div>

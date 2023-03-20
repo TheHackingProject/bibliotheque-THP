@@ -14,4 +14,8 @@ Et voilà, ton compte est maintenant prêt à être utilisé ! Mais comment se s
 Nous allons commencer par t'expliquer la barre latérale.
 
 
-[Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/parametres.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/la_barre_laterale.md)
+<div align="center">
+
+[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/parametres.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/la_barre_laterale.md)
+
+</div>

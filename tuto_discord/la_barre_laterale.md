@@ -14,4 +14,8 @@ Chaque catégorie a plusieurs chaînes qui sont l'élément central de Discord. 
 Par exemple, va sur la chaîne tout en haut intitulée "Règles". Cette chaîne contient les règles de notre Discord. Tu peux aller sur la chaîne en cliquant dessus, et ainsi voir les messages dans cette chaîne.
 
 
-[Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/discord.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/les_regles.md)
+<div align="center">
+
+[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/discord.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/les_regles.md)
+
+</div>

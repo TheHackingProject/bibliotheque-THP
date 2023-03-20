@@ -16,4 +16,8 @@ Va dans la chaîne #présentations, puis écris-y un message te présentant :
 - Quelles sont tes passions dans la vie ?
 
 
-[Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/naviguer.md) - [Suivant](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/formatage.md)
+<div align="center">
+
+[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/naviguer.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/formatage.md)
+
+</div>
