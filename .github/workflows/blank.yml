@@ -1,4 +1,4 @@
-name: Sync Markdown to Wiki
+name: Sync Markdown to Wiki v2
 
 on:
   workflow_dispatch: # Permet un déclenchement manuel
@@ -19,45 +19,15 @@ jobs:
         run: |
           git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.wiki.git wiki
 
-      - name: Nettoyer les fichiers modifiés dans le Wiki
+      - name: Nettoyer complètement le Wiki (sauf .git)
         run: |
           cd wiki
-          git rm -rf . 2>/dev/null || echo "Aucun fichier existant à supprimer"
+          rm -rf *  # Supprime tous les fichiers existants sauf .git
+          echo "Wiki vidé avant la synchronisation."
 
-      - name: Copier et renommer les fichiers Markdown en aplatissant la structure
+      - name: Copier tous les fichiers Markdown à la racine du Wiki
         run: |
-          find . -name "*.md" -not -path "./wiki/*" | while IFS= read -r file; do
-            relative_path="${file#./}"             # Enlève le ./ pour avoir un chemin relatif
-            renamed_file="${relative_path//\//_}"  # Remplace les / par _ pour éviter les conflits
-            cp "$file" "wiki/${renamed_file}"      # Copie sous le nouveau nom
-          done
-
-      - name: Générer une Table des Matières avec hiérarchie
-        run: |
-          echo "## 📂 Table des Matières" > wiki/_Sidebar.md
-          echo "" >> wiki/_Sidebar.md
-          echo "- [🏠 Accueil](Home)" >> wiki/_Sidebar.md
-          REPO_URL="https://github.com/${{ github.repository }}/wiki"
-
-          declare -A folder_map
-
-          find . -name "*.md" -not -path "./wiki/*" | while IFS= read -r file; do
-            relative_path="${file#./}"             # Enlève le ./ pour avoir un chemin relatif
-            renamed_file="${relative_path//\//_}"  # Remplace les / par _ pour éviter les conflits
-            filename_readable=$(basename "$file" .md | sed 's/_/ /g')
-
-            dir_path=$(dirname "$relative_path")   # Extrait le dossier parent
-            folder_map["$dir_path"]+="  - [${filename_readable}](${REPO_URL}/${renamed_file})"$'\n'
-          done
-
-          # Générer la hiérarchie
-          for folder in "${!folder_map[@]}"; do
-            if [[ "$folder" != "." ]]; then
-              folder_name=$(basename "$folder" | sed 's/_/ /g')
-              echo "- **${folder_name}**" >> wiki/_Sidebar.md
-            fi
-            echo "${folder_map[$folder]}" >> wiki/_Sidebar.md
-          done
+          find . -name "*.md" -not -path "./wiki/*" -exec cp {} wiki/ \;
 
       - name: Définir README.md comme page d'accueil du Wiki
         run: |
@@ -65,9 +35,35 @@ jobs:
             mv wiki/README.md wiki/Home.md
           fi
 
+      - name: Générer une Table des Matières avec hiérarchie correcte
+        run: |
+          echo "## 📂 Table des Matières" > wiki/_Sidebar.md
+          echo "" >> wiki/_Sidebar.md
+          echo "- [🏠 Accueil](Home)" >> wiki/_Sidebar.md
+          REPO_URL="https://github.com/${{ github.repository }}/wiki"
+
+          generate_sidebar() {
+            local current_path="$1"
+            local indent_level="$2"
+
+            for item in "$current_path"/*; do
+              if [ -d "$item" ]; then
+                folder_name=$(basename "$item" | sed 's/_/ /g')
+                echo "$(printf '%*s' "$indent_level")- **${folder_name}**" >> wiki/_Sidebar.md
+                generate_sidebar "$item" $((indent_level + 2)) # Récursion avec indentation
+              elif [ -f "$item" ] && [[ "$item" == *.md ]]; then
+                filename=$(basename "$item" .md)
+                filename_readable=$(echo "$filename" | sed 's/_/ /g')
+                echo "$(printf '%*s' "$indent_level")  - [${filename_readable}](${REPO_URL}/${filename})" >> wiki/_Sidebar.md
+              fi
+            done
+          }
+
+          generate_sidebar "." 0
+
       - name: Commit et push des fichiers mis à jour
         run: |
           cd wiki
           git add .
-          git commit -m "Mise à jour automatique du Wiki" || echo "Aucune modification détectée"
+          git commit -m "Mise à jour automatique du Wiki avec hiérarchie correcte" || echo "Aucune modification détectée"
           git push
