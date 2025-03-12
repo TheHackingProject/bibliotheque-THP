@@ -18,8 +18,8 @@ jobs:
           git clone https://github.com/${{ github.repository }}.wiki.git wiki
           cp -r *.md wiki/ # Copie tous les fichiers .md vers le Wiki
           cd wiki
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
+          git config user.name "Istarengwa"
+          git config user.email "lilian@thehackingproject.org"
           git add .
           git commit -m "Mise à jour automatique du Wiki"
           git push
