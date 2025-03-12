@@ -13,13 +13,22 @@ jobs:
       - name: Checkout du repo principal
         uses: actions/checkout@v3
 
-      - name: Clone du Wiki
+      - name: Configure Git pour GitHub Actions
         run: |
-          git clone https://github.com/${{ github.repository }}.wiki.git wiki
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+      - name: Clone du Wiki avec Authentification
+        run: |
+          git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.wiki.git wiki
+
+      - name: Copier les fichiers Markdown
+        run: |
           cp -r *.md wiki/ # Copie tous les fichiers .md vers le Wiki
+
+      - name: Commit et push des fichiers mis à jour
+        run: |
           cd wiki
-          git config user.name "Istarengwa"
-          git config user.email "lilian@thehackingproject.org"
           git add .
-          git commit -m "Mise à jour automatique du Wiki"
+          git commit -m "Mise à jour automatique du Wiki" || echo "Aucune modification détectée"
           git push
