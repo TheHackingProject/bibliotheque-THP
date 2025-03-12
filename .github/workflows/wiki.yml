@@ -22,9 +22,16 @@ jobs:
         run: |
           git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.wiki.git wiki
 
-      - name: Copier les fichiers Markdown
+      - name: Copier tous les fichiers Markdown (y compris les sous-dossiers)
         run: |
-          cp -r *.md wiki/ # Copie tous les fichiers .md vers le Wiki
+          find . -name "*.md" -not -path "./wiki/*" -exec cp --parents {} wiki/ \;
+          rm -rf wiki/.github # Supprime les fichiers inutiles s'ils existent
+
+      - name: Définir README.md comme page d'accueil du Wiki
+        run: |
+          if [ -f wiki/README.md ]; then
+            mv wiki/README.md wiki/Home.md
+          fi
 
       - name: Commit et push des fichiers mis à jour
         run: |
