@@ -42,24 +42,23 @@ jobs:
           echo "- [🏠 Accueil](Home)" >> wiki/_Sidebar.md
           REPO_URL="https://github.com/${{ github.repository }}/wiki"
 
-          generate_sidebar() {
-            local current_path="$1"
-            local indent_level="$2"
+          for dir in $(find . -type d -mindepth 1 -not -path "./wiki*" -not -path "./.git*" -not -path "./.github*"); do
+              folder_name=$(basename "$dir" | sed 's/_/ /g') # Remplace les _ par espaces
+              echo "<details>" >> wiki/_Sidebar.md
+              echo "  <summary><b>${folder_name}</b></summary>" >> wiki/_Sidebar.md
+              echo "  <ul>" >> wiki/_Sidebar.md
 
-            for item in "$current_path"/*; do
-              if [ -d "$item" ]; then
-                folder_name=$(basename "$item" | sed 's/_/ /g')
-                echo "$(printf '%*s' "$indent_level")- **${folder_name}**" >> wiki/_Sidebar.md
-                generate_sidebar "$item" $((indent_level + 2)) # Récursion avec indentation
-              elif [ -f "$item" ] && [[ "$item" == *.md ]]; then
-                filename=$(basename "$item" .md)
-                filename_readable=$(echo "$filename" | sed 's/_/ /g')
-                echo "$(printf '%*s' "$indent_level")  - [${filename_readable}](${REPO_URL}/${filename})" >> wiki/_Sidebar.md
-              fi
-            done
-          }
-
-          generate_sidebar "." 0
+              for file in "$dir"/*.md; do
+                  if [ -f "$file" ]; then
+                      filename=$(basename "$file" .md)
+                      filename_readable=$(echo "$filename" | sed 's/_/ /g') # Remplace les _ par espaces
+                      echo "    <li><a href='${REPO_URL}/${filename}'>${filename_readable}</a></li>" >> wiki/_Sidebar.md
+                  fi
+              done
+              
+              echo "  </ul>" >> wiki/_Sidebar.md
+              echo "</details>" >> wiki/_Sidebar.md
+          done
 
       - name: Commit et push des fichiers mis à jour
         run: |
