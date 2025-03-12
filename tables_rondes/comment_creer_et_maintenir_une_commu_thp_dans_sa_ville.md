@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Tables Rondes](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/sommaires/tables_rondes.md) > Comment créer et maintenir une commu THP dans sa ville
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Tables Rondes](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tables_rondes.md) > Comment créer et maintenir une commu THP dans sa ville
 
 ___
 

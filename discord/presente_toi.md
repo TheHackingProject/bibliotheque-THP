@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/sommaires/tuto_discord.md) > Présente-toi
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord.md) > Présente-toi
 
 ___
 
@@ -18,6 +18,6 @@ Va dans la chaîne #présentations, puis écris-y un message te présentant :
 
 <div align="center">
 
-[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/naviguer.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/formatage.md)
+[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/naviguer.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/formatage.md)
 
 </div>

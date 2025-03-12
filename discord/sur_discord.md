@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/sommaires/tuto_discord.md) > Sur Discord
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord.md) > Sur Discord
 
 ___
 
@@ -11,6 +11,6 @@ Te voici sur le Discord. Afin d'éviter de te perdre, nous allons te montrer com
 
 <div align="center">
 
-[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/telecharger_installer.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/role_presentation_en_cours_et_profil_non_complet.md)
+[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/telecharger_installer.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/role_presentation_en_cours_et_profil_non_complet.md)
 
 </div>

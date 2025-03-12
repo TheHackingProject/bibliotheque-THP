@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/sommaires/tuto_discord.md) > Paramètres
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord.md) > Paramètres
 
 ___
 
@@ -11,6 +11,6 @@ Maintenant tu peux paramétrer quelques préférences. Dans la rubrique des para
 
 <div align="center">
 
-[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/photo_de_profil.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/discord.md)
+[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/photo_de_profil.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/discord.md)
 
 </div>

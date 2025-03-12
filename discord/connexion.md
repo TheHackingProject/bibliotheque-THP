@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/sommaires/tuto_discord.md) > Connexion
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord.md) > Connexion
 
 ___
 
@@ -15,6 +15,6 @@ Il te faudra rejoindre notre [Discord](https://discord.gg/dq7Z52B). Une fois que
 
 <div align="center">
 
-[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/email.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/tuto_discord/telecharger_discord.md)
+[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/email.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/telecharger_discord.md)
 
 </div>

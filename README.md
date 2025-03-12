@@ -18,7 +18,7 @@ On y trouvera : des retours d'expérience, des tutos, des exemples de projets et
 
 Pour y contribuer, [créer une Pull Request](https://careerkarma.com/blog/git-pull-request/) contenant les modifications suivantes :
 
-- Ta nouvelle contribution [en suivant ce template](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/modele_note.md) si elle est écrite  
+- Ta nouvelle contribution [en suivant ce template](https://github.com/TheHackingProject/bibliotheque-THP/wiki/modele_note.md) si elle est écrite  
   **OU** la modification d'un fichier existant. 
     > Ex : ajouter une URL à une `Liste des [...].md`  
     > Ex : ajouter un lien à un des **index principaux**  
@@ -27,7 +27,7 @@ Pour y contribuer, [créer une Pull Request](https://careerkarma.com/blog/git-pu
 - Un lien vers ta contribution dans les **index principaux** si le thème de ta contribution y correspond (comme indiqué ci-dessus).
 - Pour les deux précédents points, les liens sont à intégrer comme suit :
 ```
-[nom de ma contribution](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/nom_de_ma_contribution)
+[nom de ma contribution](https://github.com/TheHackingProject/bibliotheque-THP/wiki/nom_de_ma_contribution)
 ``` 
   
   
@@ -37,7 +37,7 @@ Pour y contribuer, [créer une Pull Request](https://careerkarma.com/blog/git-pu
 - [Ateliers]()
 - [Missions]()
 - [Projets Finaux]()
-- [Tables Rondes](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/sommaires/tables_rondes.md)
-- [Liste des projets data analyste](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/sommaires/liste_projets_data_analyse.md)
-- [Discord](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/sommaires/tuto_discord.md)
+- [Tables Rondes](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tables_rondes.md)
+- [Liste des projets data analyste](https://github.com/TheHackingProject/bibliotheque-THP/wiki/liste_projets_data_analyse.md)
+- [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord.md)
 

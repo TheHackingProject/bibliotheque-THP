@@ -18,12 +18,12 @@ Ce livre permet :
 
 ## 📚 Liste des projets
 
-- [Les librairies Python de la data](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/librairies_python_data.md)
-- [Apprendre SQL et le modèle relationnel](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/apprendre_sql_et_le_modele_relationnel.md)
-- [Le nettoyage des données](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/le_nettoyage_des_donnees.md)
-- [La visualisation des données](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/la_visualisation_des_donnees.md)
-- [Mettre en place des dashboards automatisés](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/mettre_en_place_des_dashboards_automatises.md)
-- [Présenter ses résultats de manière impactante](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/presenter_ses_resultats_de_manirere_impactante.md)
-- [Data et Gestion de projet](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/data_et_gestion_de_projet.md)
-- [Le traitement et l'analyse de données](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/le_traitement_et_lanalyse_de_donnees.md)
+- [Les librairies Python de la data](https://github.com/TheHackingProject/bibliotheque-THP/wiki/librairies_python_data.md)
+- [Apprendre SQL et le modèle relationnel](https://github.com/TheHackingProject/bibliotheque-THP/wiki/apprendre_sql_et_le_modele_relationnel.md)
+- [Le nettoyage des données](https://github.com/TheHackingProject/bibliotheque-THP/wiki/le_nettoyage_des_donnees.md)
+- [La visualisation des données](https://github.com/TheHackingProject/bibliotheque-THP/wiki/la_visualisation_des_donnees.md)
+- [Mettre en place des dashboards automatisés](https://github.com/TheHackingProject/bibliotheque-THP/wiki/mettre_en_place_des_dashboards_automatises.md)
+- [Présenter ses résultats de manière impactante](https://github.com/TheHackingProject/bibliotheque-THP/wiki/presenter_ses_resultats_de_manirere_impactante.md)
+- [Data et Gestion de projet](https://github.com/TheHackingProject/bibliotheque-THP/wiki/data_et_gestion_de_projet.md)
+- [Le traitement et l'analyse de données](https://github.com/TheHackingProject/bibliotheque-THP/wiki/le_traitement_et_lanalyse_de_donnees.md)
 

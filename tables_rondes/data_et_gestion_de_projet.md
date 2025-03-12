@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Liste des projets des élèves Data Analyse](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/sommaires/liste_projets_data_analyse.md) > Data et Gestion de projet
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Liste des projets des élèves Data Analyse](https://github.com/TheHackingProject/bibliotheque-THP/wiki/liste_projets_data_analyse.md) > Data et Gestion de projet
 
 ___
 
@@ -7,7 +7,7 @@ ___
 ![](https://picsum.photos/1024/400)
 
 ## 📄 Description et/ou objectif
-Dans le cadre de la [liste des projets des élèves Data Analyse](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/notes/liste_projets_data_analyse.md), nous allons recenser ici les projets des élèves.
+Dans le cadre de la [liste des projets des élèves Data Analyse](https://github.com/TheHackingProject/bibliotheque-THP/wiki/liste_projets_data_analyse.md), nous allons recenser ici les projets des élèves.
 
 L'objectif est de fournir un aperçu de ce que peuvent proposer les élèves pour ce projet. Cela vous permettra de vous auto-évaluer par rapport à ce qui a été fait. Les mauvais projets sont par exemple un excellent moyen de voir ce qu'il ne faut PAS faire (voir ce qu'il ne faut pas faire une des meilleures technique d'apprentissage, tmtc) et comparer avec des meilleurs projets.
 

@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > PARENT_NOTE > NOTE_NAME(this_is_a_breadcrumb)
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [PARENT_NOTE]((https://github.com/TheHackingProject/bibliotheque-THP/wiki/nom_de_la_note_parent.md)) > NOTE_NAME(this_is_a_breadcrumb)
 
 ___
 
@@ -15,3 +15,9 @@ On y écrit le contenu de la contribution
 
 
 À la fin, une éventuelle signature : Prénom Nom Contact, si tu souhaites que des personnes curieuses puissent échanger avec toi
+
+<div align="center">
+
+[Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/nom_de_ta_note_précédente.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/nom_de_ta_note_suivante.md)
+
+</div>
