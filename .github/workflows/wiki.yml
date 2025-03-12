@@ -22,13 +22,16 @@ jobs:
         run: |
           git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.wiki.git wiki
 
-      - name: Copier tous les fichiers Markdown en conservant les sous-dossiers
+      - name: Nettoyer complètement le Wiki (sauf .git)
         run: |
-          # Copier tous les fichiers Markdown sans le dossier wiki/
+          cd wiki
+          rm -rf *  # Supprime tous les fichiers et dossiers
+          rm -rf .github  # Supprime aussi les fichiers de configuration si présents
+          echo "Wiki vidé avant la synchronisation."
+
+      - name: Copier tous les fichiers Markdown en conservant la structure
+        run: |
           rsync -av --prune-empty-dirs --include '*/' --include='*.md' --exclude='*' ./ wiki/
-          
-          # Supprimer le dossier .github s'il a été copié par erreur
-          rm -rf wiki/.github
 
       - name: Définir README.md comme page d'accueil du Wiki
         run: |
@@ -60,5 +63,5 @@ jobs:
         run: |
           cd wiki
           git add .
-          git commit -m "Mise à jour automatique du Wiki avec structure de menus" || echo "Aucune modification détectée"
+          git commit -m "Mise à jour automatique du Wiki après nettoyage" || echo "Aucune modification détectée"
           git push
