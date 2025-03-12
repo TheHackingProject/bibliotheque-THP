@@ -22,10 +22,13 @@ jobs:
         run: |
           git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.wiki.git wiki
 
-      - name: Copier tous les fichiers Markdown (y compris les sous-dossiers)
+      - name: Copier tous les fichiers Markdown en conservant les sous-dossiers
         run: |
-          find . -name "*.md" -not -path "./wiki/*" -exec cp --parents {} wiki/ \;
-          rm -rf wiki/.github # Supprime les fichiers inutiles s'ils existent
+          # Copier tous les fichiers Markdown sans le dossier wiki/
+          rsync -av --prune-empty-dirs --include '*/' --include='*.md' --exclude='*' ./ wiki/
+          
+          # Supprimer le dossier .github s'il a été copié par erreur
+          rm -rf wiki/.github
 
       - name: Définir README.md comme page d'accueil du Wiki
         run: |
@@ -33,9 +36,29 @@ jobs:
             mv wiki/README.md wiki/Home.md
           fi
 
+      - name: Générer un Index/Table des matières pour structurer les menus
+        run: |
+          echo "# Table des Matières" > wiki/_Sidebar.md
+          echo "" >> wiki/_Sidebar.md
+          
+          # Ajouter un lien vers la page d'accueil
+          echo "- [Accueil](Home)" >> wiki/_Sidebar.md
+          
+          # Parcourir les dossiers et ajouter une structure de menu
+          for dir in $(find wiki/ -type d -mindepth 1 -not -path "wiki/.git*" -not -path "wiki/.github*"); do
+            folder_name=$(basename "$dir")
+            echo "- **$folder_name**" >> wiki/_Sidebar.md
+            for file in "$dir"/*.md; do
+              if [ -f "$file" ]; then
+                filename=$(basename "$file" .md)
+                echo "  - [$filename]($folder_name/$filename)" >> wiki/_Sidebar.md
+              fi
+            done
+          done
+
       - name: Commit et push des fichiers mis à jour
         run: |
           cd wiki
           git add .
-          git commit -m "Mise à jour automatique du Wiki" || echo "Aucune modification détectée"
+          git commit -m "Mise à jour automatique du Wiki avec structure de menus" || echo "Aucune modification détectée"
           git push
