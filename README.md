@@ -33,6 +33,7 @@ Pour y contribuer, [créer une Pull Request](https://careerkarma.com/blog/git-pu
   
 ## Index Principaux
 
+- [Ressources]()
 - [Ateliers]()
 - [Missions]()
 - [Projets Finaux]()
