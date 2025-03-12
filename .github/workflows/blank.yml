@@ -71,7 +71,3 @@ jobs:
           git add .
           git commit -m "Mise à jour automatique du Wiki" || echo "Aucune modification détectée"
           git push
-
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
