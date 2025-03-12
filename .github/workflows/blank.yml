@@ -45,24 +45,24 @@ jobs:
           echo "- [🏠 Accueil](Home)" >> wiki/_Sidebar.md
           REPO_URL="https://github.com/${{ github.repository }}/wiki"
 
-          for dir in $(find . -type d -mindepth 1 -not -path "./wiki*" -not -path "./.git*" -not -path "./.github*"); do
-              folder_name=$(basename "$dir" | sed 's/_/ /g') # Remplace les _ par espaces
+          for dir in $(find . -type d -mindepth 1 -not -path "./wiki*" -not -path "./.git*" -not -path "./.github*" | sort); do
+              folder_name=$(basename "$dir" | sed 's/_/ /g')
+
+              # Vérifier si le dossier est un sous-dossier (on l'ignore dans ce cas)
+              parent_folder=$(dirname "$dir")
+              if [[ "$parent_folder" != "." ]]; then
+                  continue
+              fi
+
               echo "<details>" >> wiki/_Sidebar.md
               echo "  <summary><b>${folder_name}</b></summary>" >> wiki/_Sidebar.md
               echo "  <ul>" >> wiki/_Sidebar.md
 
+              # Lister les fichiers Markdown
               find "$dir" -type f -name "*.md" | while read file; do
-                filename=$(basename "$file" .md)
-                filename_readable=$(echo "$filename" | sed 's/_/ /g') # Remplace les _ par espaces
-                echo "    <li><a href='${REPO_URL}/${filename}'>${filename_readable}</a></li>" >> wiki/_Sidebar.md
-              done
-
-              find "$dir" -mindepth 1 -type d | while read subdir; do
-                find "$subdir" -type f -name "*.md" | while read subfile; do
-                  filename=$(basename "$subfile" .md)
-                  filename_readable=$(echo "$filename" | sed 's/_/ /g') # Remplace les _ par espaces
+                  filename=$(basename "$file" .md)
+                  filename_readable=$(echo "$filename" | sed 's/_/ /g')
                   echo "    <li><a href='${REPO_URL}/${filename}'>${filename_readable}</a></li>" >> wiki/_Sidebar.md
-                done
               done
 
               echo "  </ul>" >> wiki/_Sidebar.md
@@ -73,5 +73,5 @@ jobs:
         run: |
           cd wiki
           git add .
-          git commit -m "Mise à jour automatique du Wiki avec regroupement des fichiers" || echo "Aucune modification détectée"
+          git commit -m "Mise à jour automatique du Wiki sans sous-dossiers" || echo "Aucune modification détectée"
           git push
