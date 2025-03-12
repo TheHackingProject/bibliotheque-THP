@@ -1,0 +1,25 @@
+name: Sync Markdown to Wiki
+
+on:
+  push:
+    branches:
+      - main  # Exécute l'action à chaque push sur la branche principale
+  workflow_dispatch: # Permet un déclenchement manuel
+
+jobs:
+  sync_wiki:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout du repo principal
+        uses: actions/checkout@v3
+
+      - name: Clone du Wiki
+        run: |
+          git clone https://github.com/${{ github.repository }}.wiki.git wiki
+          cp -r *.md wiki/ # Copie tous les fichiers .md vers le Wiki
+          cd wiki
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add .
+          git commit -m "Mise à jour automatique du Wiki"
+          git push
