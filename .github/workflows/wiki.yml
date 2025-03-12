@@ -30,39 +30,39 @@ jobs:
 
       - name: Copier tous les fichiers Markdown à la racine du Wiki
         run: |
-          find . -name "*" -not -path "./wiki/*" -exec cp {} wiki/ \;
+          find . -name "*.md" -not -path "./wiki/*" -exec cp {} wiki/ \;
 
-      - name: Définir README comme page d'accueil du Wiki
+      - name: Définir README.md comme page d'accueil du Wiki
         run: |
-          if [ -f wiki/README ]; then
-            mv wiki/README wiki/Home
+          if [ -f wiki/README.md ]; then
+            mv wiki/README.md wiki/Home.md
           fi
 
       - name: Générer une Table des Matières avec URLs correctes
         run: |
-          echo "## 📂 Table des Matières" > wiki/_Sidebar
-          echo "" >> wiki/_Sidebar
-          echo "- [🏠 Accueil](Home)" >> wiki/_Sidebar
+          echo "## 📂 Table des Matières" > wiki/_Sidebar.md
+          echo "" >> wiki/_Sidebar.md
+          echo "- [🏠 Accueil](Home)" >> wiki/_Sidebar.md
 
           REPO_URL="https://github.com/${{ github.repository }}/wiki"
 
           for dir in $(find . -type d -mindepth 1 -not -path "./wiki*" -not -path "./.git*" -not -path "./.github*"); do
               folder_name=$(basename "$dir" | sed 's/_/ /g') # Remplace les _ par espaces
 
-              echo "<details>" >> wiki/_Sidebar
-              echo "  <summary><b>${folder_name}</b></summary>" >> wiki/_Sidebar
-              echo "  <ul>" >> wiki/_Sidebar
+              echo "<details>" >> wiki/_Sidebar.md
+              echo "  <summary><b>${folder_name}</b></summary>" >> wiki/_Sidebar.md
+              echo "  <ul>" >> wiki/_Sidebar.md
 
-              for file in "$dir"/*; do
+              for file in "$dir"/*.md; do
                 if [ -f "$file" ]; then
-                  filename=$(basename "$file" )
+                  filename=$(basename "$file" .md)
                   filename_readable=$(echo "$filename" | sed 's/_/ /g') # Remplace les _ par espaces
-                  echo "    <li><a href='${REPO_URL}/${filename}'>${filename_readable}</a></li>" >> wiki/_Sidebar
+                  echo "    <li><a href='${REPO_URL}/${filename}'>${filename_readable}</a></li>" >> wiki/_Sidebar.md
                 fi
               done
 
-              echo "  </ul>" >> wiki/_Sidebar
-              echo "</details>" >> wiki/_Sidebar
+              echo "  </ul>" >> wiki/_Sidebar.md
+              echo "</details>" >> wiki/_Sidebar.md
           done
 
       - name: Commit et push des fichiers mis à jour
