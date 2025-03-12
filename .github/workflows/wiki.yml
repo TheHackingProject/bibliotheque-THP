@@ -38,39 +38,41 @@ jobs:
             mv wiki/README.md wiki/Home.md
           fi
 
-      - name: Générer un Index/Table des matières pour structurer les menus
+      - name: Générer un Index/Table des matières dynamique
         run: |
-          echo "# Table des Matières" > wiki/_Sidebar.md
-          echo "" >> wiki/_Sidebar.md
-          
-          # Ajouter un lien vers la page d'accueil
+          echo '<style>
+          .details { cursor: pointer; }
+          .details summary { font-weight: bold; list-style: none; cursor: pointer; }
+          .details summary::before { content: "▶ "; display: inline-block; transform: rotate(0deg); transition: transform 0.2s; }
+          .details[open] summary::before { transform: rotate(90deg); }
+          </style>' > wiki/_Sidebar.md
+
+          echo "<h2>📂 Table des Matières</h2>" >> wiki/_Sidebar.md
           echo "- [Accueil](Home)" >> wiki/_Sidebar.md
-          
-          # Parcourir les dossiers et ajouter une structure de menu
-          for dir in $(find wiki/ -type d -mindepth 1 -not -path "wiki/.git*" -not -path "wiki/.github*" -not -path "wiki/sommaires*"); do
-            folder_name=$(basename "$dir" | sed 's/_/ /g') # Remplace les _ par des espaces
-            folder_key=$(basename "$dir")
 
-            # Vérifier si un fichier sommaires/<nom_du_dossier>.md existe
-            if [ -f "wiki/sommaires/${folder_key}.md" ]; then
-              echo "- [${folder_name}](sommaires/${folder_key})" >> wiki/_Sidebar.md
-            else
-              echo "- **${folder_name}**" >> wiki/_Sidebar.md
-            fi
+          for dir in $(find wiki/ -type d -mindepth 1 -not -path "wiki/.git*" -not -path "wiki/.github*"); do
+              folder_name=$(basename "$dir" | sed 's/_/ /g') # Remplace les _ par espaces
+              folder_key=$(basename "$dir")
 
-            # Ajouter les fichiers Markdown du dossier sous la catégorie
-            for file in "$dir"/*.md; do
-              if [ -f "$file" ]; then
-                filename=$(basename "$file" .md)
-                filename_readable=$(echo "$filename" | sed 's/_/ /g') # Remplace les _ par espaces
-                echo "  - [${filename_readable}](${folder_key}/${filename})" >> wiki/_Sidebar.md
-              fi
-            done
+              echo "<details class='details'>" >> wiki/_Sidebar.md
+              echo "<summary> ${folder_name} </summary>" >> wiki/_Sidebar.md
+              echo "<ul>" >> wiki/_Sidebar.md
+
+              for file in "$dir"/*.md; do
+                if [ -f "$file" ]; then
+                  filename=$(basename "$file" .md)
+                  filename_readable=$(echo "$filename" | sed 's/_/ /g') # Remplace les _ par espaces
+                  echo "  <li><a href='/${folder_key}/${filename}'>${filename_readable}</a></li>" >> wiki/_Sidebar.md
+                fi
+              done
+
+              echo "</ul>" >> wiki/_Sidebar.md
+              echo "</details>" >> wiki/_Sidebar.md
           done
 
       - name: Commit et push des fichiers mis à jour
         run: |
           cd wiki
           git add .
-          git commit -m "Mise à jour automatique du Wiki avec amélioration du menu" || echo "Aucune modification détectée"
+          git commit -m "Mise à jour automatique du Wiki avec Table des Matières interactive" || echo "Aucune modification détectée"
           git push
