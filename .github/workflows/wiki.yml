@@ -76,5 +76,5 @@ jobs:
         run: |
           cd wiki
           git add .
-          git commit -m "Mise à jour automatique du Wiki sans sous-dossiers" || echo "Aucune modification détectée"
+          git commit -m "Mise à jour automatique du Wiki" || echo "Aucune modification détectée"
           git push
