@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Tables Rondes](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tables_rondes) > Tips and Tricks d'alumnis - Mieux coder
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Tables Rondes](https://github.com/TheHackingProject/bibliotheque-THP/wiki/sommaire_tables_rondes) > Tips and Tricks d'alumnis - Mieux coder
 
 ___
 
