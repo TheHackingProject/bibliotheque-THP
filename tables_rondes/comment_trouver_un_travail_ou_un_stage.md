@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Tables Rondes](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tables_rondes.md) > Comment trouver un travail ou un stage ?
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Tables Rondes](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tables_rondes) > Comment trouver un travail ou un stage ?
 
 ___
 
@@ -33,7 +33,7 @@ Ressources partagées :
 - Pdf de Bastien Arlot : https://drive.google.com/file/d/1XX-yKE5DFdIoby-GR5ay1bLuR1Feg522/view?usp=sharing
 - Pour faire de la veille : https://app.daily.dev/
 - Pour des idées de projets : https://projectbook.code.brettchalupa.com/
-- Une page d'exemples de badges pour github : https://github.com/alexandresanlim/Badges4-README.md-Profile
+- Une page d'exemples de badges pour github : https://github.com/alexandresanlim/Badges4-README-Profile
 - Une autre page d'exemples de badges : https://github.com/rzashakeri/beautify-github-profile
 
 Exemples de profils Github d'alumni de THP :

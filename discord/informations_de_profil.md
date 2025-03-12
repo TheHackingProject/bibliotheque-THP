@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord.md) > Informations de profil
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord) > Informations de profil
 
 ___
 
@@ -21,6 +21,6 @@ Ainsi, mets dans ce pseudo ton **Prénom Nom**.
 
 <div align="center">
 
-[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/role_presentation_en_cours_et_profil_non_complet.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/photo_de_profil.md)
+[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/role_presentation_en_cours_et_profil_non_complet) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/photo_de_profil)
 
 </div>

@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord.md) > C'est quoi discord
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord) > C'est quoi discord
 
 ___
 
@@ -12,6 +12,6 @@ Maintenant que tu as vu ce qu'est que Discord, nous allons te donner la philosop
 
 <div align="center">
 
-[Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/philosophie_de_discord_a_thp.md)
+[Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/philosophie_de_discord_a_thp)
 
 </div>

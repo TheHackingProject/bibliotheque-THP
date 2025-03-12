@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord.md) > Philosophie de discord à THP
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord) > Philosophie de discord à THP
 
 ___
 
@@ -17,6 +17,6 @@ Il est important que tu les intègres et que nous te les répétions.
 
 <div align="center">
 
-[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/cest_quoi_discord.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/invitation_sur_le_discord.md)
+[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/cest_quoi_discord) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/invitation_sur_le_discord)
 
 </div>

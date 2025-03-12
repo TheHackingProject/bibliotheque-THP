@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Tables Rondes](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tables_rondes.md) > le quotidien de dev
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Tables Rondes](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tables_rondes) > le quotidien de dev
 
 ___
 

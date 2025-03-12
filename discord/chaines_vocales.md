@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord.md) > Chaînes vocales
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord) > Chaînes vocales
 
 ___
 
@@ -15,6 +15,6 @@ Tu pourras te créer des affinités et constituer des groupes avec des personnes
 
 <div align="center">
 
-[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/les_chaines.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/naviguer.md)
+[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/les_chaines) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/naviguer)
 
 </div>

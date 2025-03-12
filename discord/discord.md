@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord.md) > Discord
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord) > Discord
 
 ___
 
@@ -16,6 +16,6 @@ Nous allons commencer par t'expliquer la barre latérale.
 
 <div align="center">
 
-[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/parametres.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/la_barre_laterale.md)
+[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/parametres) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/la_barre_laterale)
 
 </div>

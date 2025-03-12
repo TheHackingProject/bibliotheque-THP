@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Tables Rondes](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tables_rondes.md) > Comment trouver du travail après THP ? Vol. 3
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Tables Rondes](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tables_rondes) > Comment trouver du travail après THP ? Vol. 3
 
 ___
 

@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord.md) > Les règles
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord) > Les règles
 
 ___
 
@@ -11,6 +11,6 @@ Dans les chaînes #bienvenue et #règles, tu trouveras toutes les règles liées
 
 <div align="center">
 
-[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/la_barre_laterale.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/les_chaines.md)
+[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/la_barre_laterale) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/les_chaines)
 
 </div>

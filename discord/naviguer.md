@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord.md) > Naviguer
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord) > Naviguer
 
 ___
 
@@ -17,6 +17,6 @@ Par défaut, Discord donne accès à toutes les chaînes qui te sont disponibles
 
 <div align="center">
 
-[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/chaines_vocales.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/presente-toi.md)
+[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/chaines_vocales) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/presente-toi)
 
 </div>

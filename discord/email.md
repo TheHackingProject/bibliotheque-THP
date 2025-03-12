@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord.md) > Email
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord) > Email
 
 ___
 
@@ -11,6 +11,6 @@ Il te suffit de faire une inscription / connexion classique.
 
 <div align="center">
 
-[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/invitation_sur_le_discord.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/connexion.md)
+[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/invitation_sur_le_discord) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/connexion)
 
 </div>

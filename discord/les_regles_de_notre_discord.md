@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord.md) > Les règles de notre Discord
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord) > Les règles de notre Discord
 
 ___
 
@@ -19,6 +19,6 @@ Si tu respectes ces règles, tout ira bien.
 
 <div align="center">
 
-[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/formatage.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/respect_des_regles.md)
+[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/formatage) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/respect_des_regles)
 
 </div>

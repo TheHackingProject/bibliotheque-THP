@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord.md) > Télécharger, installer
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord) > Télécharger, installer
 
 ___
 
@@ -11,6 +11,6 @@ Installe Discord, ouvre-le, puis connecte-toi.
 
 <div align="center">
 
-[Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/telecharger_discord.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/sur_discord.md)
+[Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/telecharger_discord) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/sur_discord)
 
 </div>

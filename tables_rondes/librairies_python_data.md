@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Liste des projets des élèves Data Analyse](https://github.com/TheHackingProject/bibliotheque-THP/wiki/liste_projets_data_analyse.md) > Les librairies Python de la data
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Liste des projets des élèves Data Analyse](https://github.com/TheHackingProject/bibliotheque-THP/wiki/liste_projets_data_analyse) > Les librairies Python de la data
 
 ___
 
@@ -7,7 +7,7 @@ ___
 ![](https://picsum.photos/1024/400)
 
 ## 📄 Description et/ou objectif
-Dans le cadre de la [liste des projets des élèves Data Analyse](https://github.com/TheHackingProject/bibliotheque-THP/wiki/liste_projets_data_analyse.md), nous allons recenser ici les projets des élèves.
+Dans le cadre de la [liste des projets des élèves Data Analyse](https://github.com/TheHackingProject/bibliotheque-THP/wiki/liste_projets_data_analyse), nous allons recenser ici les projets des élèves.
 
 L'objectif est de fournir un aperçu de ce que peuvent proposer les élèves pour ce projet. Cela vous permettra de vous auto-évaluer par rapport à ce qui a été fait. Les mauvais projets sont par exemple un excellent moyen de voir ce qu'il ne faut PAS faire (voir ce qu'il ne faut pas faire une des meilleures technique d'apprentissage, tmtc) et comparer avec des meilleurs projets.
 
@@ -54,7 +54,7 @@ N'hésitez pas à ajouter des détails sur vous (ex: votre contact si vous accep
 [Lien projet](https://github.com/SamkaaDev/tour_de_france_des_musees)
 
 #### Yvon
-[Lien projet](https://github.com/ekwayv8/-The-Tour-de-France-of-museums-/blob/main/README.md)
+[Lien projet](https://github.com/ekwayv8/-The-Tour-de-France-of-museums-/blob/main/README)
 
 
 

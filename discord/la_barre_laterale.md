@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord.md) > La barre latérale
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord) > La barre latérale
 
 ___
 
@@ -16,6 +16,6 @@ Par exemple, va sur la chaîne tout en haut intitulée "Règles". Cette chaîne 
 
 <div align="center">
 
-[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/discord.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/les_regles.md)
+[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/discord) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/les_regles)
 
 </div>

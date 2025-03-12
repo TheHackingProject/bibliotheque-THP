@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord.md) > Formatage
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Discord](https://github.com/TheHackingProject/bibliotheque-THP/wiki/tuto_discord) > Formatage
 
 ___
 
@@ -13,6 +13,6 @@ C'est mieux expliqué dans [le tuto fait par Discord](https://support.discord.co
 
 <div align="center">
 
-[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/presente-toi.md) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/les_regles_de_notre_discord.md)
+[⬅️ - Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/presente-toi) - [Suivant - ➡️](https://github.com/TheHackingProject/bibliotheque-THP/wiki/les_regles_de_notre_discord)
 
 </div>
