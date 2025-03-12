@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP) > Liste des projets des élèves Data Analyse
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > Liste des projets des élèves Data Analyse
 
 ___
 

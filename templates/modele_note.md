@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP) > PARENT_NOTE > NOTE_NAME(this_is_a_breadcrumb)
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > PARENT_NOTE > NOTE_NAME(this_is_a_breadcrumb)
 
 ___
 

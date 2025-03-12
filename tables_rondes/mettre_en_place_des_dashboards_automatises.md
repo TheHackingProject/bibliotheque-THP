@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP) > [Liste des projets des élèves Data Analyse](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/sommaires/liste_projets_data_analyse.md) > Mettre en place des dashboards automatisés
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [Liste des projets des élèves Data Analyse](https://github.com/TheHackingProject/bibliotheque-THP/blob/master/sommaires/liste_projets_data_analyse.md) > Mettre en place des dashboards automatisés
 
 ___
 
