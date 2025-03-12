@@ -1,6 +1,9 @@
 name: Sync Markdown to Wiki v2
 
 on:
+  push:
+    branches:
+      - master  # Exécute l'action à chaque push sur la branche
   workflow_dispatch: # Permet uniquement un déclenchement manuel
 
 jobs:
