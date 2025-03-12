@@ -25,9 +25,12 @@ jobs:
           rm -rf *  # Supprime tous les fichiers existants sauf .git
           echo "Wiki vidé avant la synchronisation."
 
-      - name: Copier tous les fichiers Markdown à la racine du Wiki
+      - name: Copier tous les fichiers Markdown à la racine du Wiki (sans sous-dossiers)
         run: |
-          find . -name "*.md" -not -path "./wiki/*" -exec cp {} wiki/ \;
+          find . -name "*.md" -not -path "./wiki/*" | while read file; do
+            filename=$(basename "$file")  # Garde uniquement le nom du fichier
+            cp "$file" "wiki/$filename"
+          done
 
       - name: Définir README.md comme page d'accueil du Wiki
         run: |
@@ -35,39 +38,31 @@ jobs:
             mv wiki/README.md wiki/Home.md
           fi
 
-      - name: Générer une Table des Matières avec hiérarchie corrigée
+      - name: Générer une Table des Matières sans sous-dossiers
         run: |
           echo "## 📂 Table des Matières" > wiki/_Sidebar.md
           echo "" >> wiki/_Sidebar.md
           echo "- [🏠 Accueil](Home)" >> wiki/_Sidebar.md
           REPO_URL="https://github.com/${{ github.repository }}/wiki"
 
-          find . -type d -not -path "./wiki*" -not -path "./.git*" -not -path "./.github*" | sort | while read dir; do
+          for dir in $(find . -type d -mindepth 1 -not -path "./wiki*" -not -path "./.git*" -not -path "./.github*"); do
               folder_name=$(basename "$dir" | sed 's/_/ /g') # Remplace les _ par espaces
               echo "<details>" >> wiki/_Sidebar.md
               echo "  <summary><b>${folder_name}</b></summary>" >> wiki/_Sidebar.md
               echo "  <ul>" >> wiki/_Sidebar.md
 
-              find "$dir" -maxdepth 1 -type f -name "*.md" | sort | while read file; do
-                  filename=$(basename "$file" .md)
-                  filename_readable=$(echo "$filename" | sed 's/_/ /g') # Remplace les _ par espaces
-                  echo "    <li><a href='${REPO_URL}/${filename}'>${filename_readable}</a></li>" >> wiki/_Sidebar.md
+              find "$dir" -type f -name "*.md" | while read file; do
+                filename=$(basename "$file" .md)
+                filename_readable=$(echo "$filename" | sed 's/_/ /g') # Remplace les _ par espaces
+                echo "    <li><a href='${REPO_URL}/${filename}'>${filename_readable}</a></li>" >> wiki/_Sidebar.md
               done
 
-              find "$dir" -mindepth 1 -type d | sort | while read subdir; do
-                  subfolder_name=$(basename "$subdir" | sed 's/_/ /g')
-                  echo "    <details>" >> wiki/_Sidebar.md
-                  echo "      <summary><b>${subfolder_name}</b></summary>" >> wiki/_Sidebar.md
-                  echo "      <ul>" >> wiki/_Sidebar.md
-
-                  find "$subdir" -maxdepth 1 -type f -name "*.md" | sort | while read subfile; do
-                      subfilename=$(basename "$subfile" .md)
-                      subfilename_readable=$(echo "$subfilename" | sed 's/_/ /g') # Remplace les _ par espaces
-                      echo "        <li><a href='${REPO_URL}/${subfilename}'>${subfilename_readable}</a></li>" >> wiki/_Sidebar.md
-                  done
-
-                  echo "      </ul>" >> wiki/_Sidebar.md
-                  echo "    </details>" >> wiki/_Sidebar.md
+              find "$dir" -mindepth 1 -type d | while read subdir; do
+                find "$subdir" -type f -name "*.md" | while read subfile; do
+                  filename=$(basename "$subfile" .md)
+                  filename_readable=$(echo "$filename" | sed 's/_/ /g') # Remplace les _ par espaces
+                  echo "    <li><a href='${REPO_URL}/${filename}'>${filename_readable}</a></li>" >> wiki/_Sidebar.md
+                done
               done
 
               echo "  </ul>" >> wiki/_Sidebar.md
@@ -78,5 +73,5 @@ jobs:
         run: |
           cd wiki
           git add .
-          git commit -m "Mise à jour automatique du Wiki avec hiérarchie corrigée" || echo "Aucune modification détectée"
+          git commit -m "Mise à jour automatique du Wiki avec regroupement des fichiers" || echo "Aucune modification détectée"
           git push
