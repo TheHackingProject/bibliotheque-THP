@@ -1,4 +1,4 @@
-[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [PARENT_NOTE]((https://github.com/TheHackingProject/bibliotheque-THP/wiki/sommaire_outils)) > Outils CSS
+[Index Bibliothèque THP](https://github.com/TheHackingProject/bibliotheque-THP/wiki) > [SOMMAIRE OUTILS]((https://github.com/TheHackingProject/bibliotheque-THP/wiki/sommaire_outils)) > Outils CSS
 
 ___
 
