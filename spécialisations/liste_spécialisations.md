@@ -55,3 +55,4 @@ A venir :
 - Docker
 - IA Agent
 - UI&UX
+- Kamal2
