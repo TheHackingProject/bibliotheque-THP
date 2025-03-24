@@ -1,0 +1,56 @@
+name: 🐞 Problème technique ou erreur dans une ressource
+description: Signale un bug ou une erreur dans un lien, un fichier ou une information présente dans la bibliothèque.
+title: "[Bug] Description courte du problème"
+labels: ["bug"]
+assignees: []
+
+body:
+  - type: dropdown
+    id: categorie
+    attributes:
+      label: 📂 Partie concernée
+      options:
+        - Tables Rondes
+        - Projets Data Analyste
+        - Discord
+        - Outils
+        - Spécialisations
+        - Autre
+    validations:
+      required: true
+
+  - type: textarea
+    id: probleme
+    attributes:
+      label: ❗ Quel est le bug ou l’erreur constatée ?
+      description: Décris précisément ce qui ne va pas.
+      placeholder: Le lien vers l’atelier Docker dans la section Outils est cassé (404).
+    validations:
+      required: true
+
+  - type: input
+    id: fichier
+    attributes:
+      label: 📄 Lien ou nom du fichier concerné (si applicable)
+      placeholder: ex. https://github.com/TheHackingProject/bibliotheque-THP/wiki/Outils#docker
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 🔁 Étapes pour reproduire le problème
+      description: Si possible, décris comment on peut observer le bug.
+      placeholder: Clique sur le lien "Atelier Docker", tu arrives sur une 404.
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: 💡 Suggestion de correction
+      description: Si tu as une idée de correction, ajoute-la ici.
+
+  - type: checkboxes
+    id: verifications
+    attributes:
+      label: ✅ Avant de valider
+      options:
+        - label: J’ai bien vérifié que le bug n’a pas déjà été signalé.
+        - label: J’ai précisé toutes les infos utiles pour reproduire le bug.
