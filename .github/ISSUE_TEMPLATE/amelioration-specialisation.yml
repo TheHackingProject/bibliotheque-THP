@@ -1,0 +1,52 @@
+name: 💡 Proposition d'amélioration
+description: Suggère une nouvelle ressource, une amélioration ou une idée pour enrichir la bibliothèque THP.
+title: "[Amélioration] Titre de la suggestion"
+labels: ["amélioration"]
+assignees: []
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: ✏️ Décris ton idée ou suggestion
+      description: Qu'aimerais-tu proposer pour améliorer la bibliothèque ?
+      placeholder: Exemple : Ajouter une ressource sur le clean code dans la section Outils.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: categorie
+    attributes:
+      label: 📂 Catégorie concernée
+      description: Où classer cette ressource ou idée ?
+      options:
+        - Tables Rondes
+        - Projets Data Analyste
+        - Discord
+        - Outils
+        - Spécialisations
+        - Autre
+    validations:
+      required: true
+
+  - type: input
+    id: lien
+    attributes:
+      label: 🔗 Lien vers la ressource (si existant)
+      placeholder: https://...
+      description: Si tu proposes une ressource externe ou interne, colle ici le lien.
+
+  - type: textarea
+    id: contexte
+    attributes:
+      label: 🎯 Pourquoi c’est utile ?
+      description: Explique rapidement l’intérêt pédagogique ou la valeur de ta proposition.
+      placeholder: Cette ressource pourrait aider les élèves à mieux structurer leur code en prod.
+
+  - type: checkboxes
+    id: accord
+    attributes:
+      label: ✅ Avant de valider
+      options:
+        - label: J’ai vérifié que cette suggestion n’existe pas déjà dans la bibliothèque.
+        - label: J’ai bien précisé la catégorie où intégrer cette ressource.
