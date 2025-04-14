@@ -21,7 +21,46 @@ Il permet de :
 - Configurer les fichiers de communauté : comme le CODE_OF_CONDUCT.md, CONTRIBUTING.md, ou FUNDING.yml, pour structurer l'engagement communautaire autour du projet.
 - Ajouter des Webhooks : bien que les webhooks ne soient pas définis directement dans .github, ce dossier peut contenir des scripts ou des workflows (via GitHub Actions) qui envoient des notifications vers des services comme Discord, Slack ou autres via des requêtes HTTP. Par exemple, on peut déclencher une notification sur Discord à chaque nouvelle PR ou issue ouverte, en utilisant un webhook Discord dans une GitHub Action.
 
-THP met à disposition son dossier [`.github`](https://github.com/TheHackingProject/.github), utilisé dans la plupart de ses repositories.
+---
+
+### 🔐 Gestion des **Secrets** GitHub
+
+Pour que certains **workflows GitHub Actions** fonctionnent correctement (par exemple pour envoyer des messages sur Discord, déployer une app, ou accéder à une API externe), il est souvent nécessaire de **définir des variables secrètes** appelées **secrets**.
+
+#### ➕ Ajouter un secret dans un **repository individuel**
+
+1. Va dans l’onglet **"Settings"** du repository concerné.
+2. Clique sur **"Secrets and variables" > "Actions"**.
+3. Clique sur **"New repository secret"**.
+4. Renseigne le nom (ex: `DISCORD_WEBHOOK_URL`) et la valeur (le token ou l'URL) puis valide.
+
+Ce secret ne sera utilisable que dans **ce repository**.
+
+#### 🏢 Ajouter un secret **dans une organisation** (commun à tous les repos)
+
+Si tes dépôts font partie d'une **organisation GitHub** (comme c’est le cas pour THP), tu peux centraliser les secrets pour tous les repos :
+
+1. Va dans les **Settings de l’organisation**.
+2. Dans le menu latéral, clique sur **"Secrets and variables" > "Actions"**.
+3. Clique sur **"New organization secret"**.
+4. Choisis à quels dépôts ce secret est accessible (tous ou sélection).
+5. Renseigne nom et valeur du secret, comme pour un repo classique.
+
+Cela permet d’éviter de répéter les mêmes secrets dans chaque dépôt.
+
+---
+
+### 📁 Déployer le dossier `.github` dans d’autres dépôts
+
+Même si THP met à disposition un dossier `.github` centralisé dans [ce dépôt](https://github.com/TheHackingProject/.github), il peut être nécessaire de le **copier dans certains repositories spécifiques** si :
+
+- Tu veux **surcharger** ou personnaliser certains comportements uniquement pour ce repo.
+- Tu veux **ajouter des workflows spécifiques** dans `.github/workflows` propres à ce projet.
+- Tu veux **tester un nouveau fonctionnement sans impacter les autres dépôts**.
+
+Dans ce cas, tu peux créer un dossier `.github/` à la racine du repo concerné, et y ajouter uniquement les fichiers nécessaires (workflow, template, etc.). GitHub utilisera en priorité le `.github` local au repo plutôt que celui de l’organisation.
+
+---
 
 ## le README originel
 
