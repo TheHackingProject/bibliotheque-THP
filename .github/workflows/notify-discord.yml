@@ -1,0 +1,45 @@
+name: Discord Pull Request Notification
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send message to Discord
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          curl -X POST -H "Content-Type: application/json" \
+          -d '{
+            "embeds": [{
+              "title": "📣 Nouvelle Pull Request : ${{ github.event.pull_request.title }}",
+              "url": "${{ github.event.pull_request.html_url }}",
+              "author": {
+                "name": "${{ github.actor }}",
+                "url": "https://github.com/${{ github.actor }}",
+                "icon_url": "https://avatars.githubusercontent.com/${{ github.actor }}"
+              },
+              "description": "${{ github.event.pull_request.body || 'Aucune description.' }}",
+              "timestamp": "${{ github.event.pull_request.created_at }}",
+              "footer": {
+                "text": "${{ github.repository }}"
+              },
+              "thumbnail": {
+                "url": "https://avatars.githubusercontent.com/u/25484553?s=88&v=4"
+              },
+              "fields": [
+                {
+                  "name": "🔗 Voir la PR",
+                  "value": "[${{ github.event.pull_request.title }}](${{ github.event.pull_request.html_url }})"
+                },
+                {
+                  "name": "📁 Repository",
+                  "value": "[${{ github.repository }}](https://github.com/${{ github.repository }})"
+                }
+              ]
+            }]
+          }' \
+          $DISCORD_WEBHOOK

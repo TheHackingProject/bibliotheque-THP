@@ -7,7 +7,8 @@ ___
 ![](https://picsum.photos/1024/400)
 
 ## 📄 Description et/ou objectif
-On y décrit la contribution et ses objectifs
+
+Cette liste permet d'afficher les outils mis en avant par THP pour nos étudiants
 
 
 ## 📚 Liste des Outils HTML
@@ -16,6 +17,6 @@ On y décrit la contribution et ses objectifs
 
 <div align="center">
 
-[Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/outil_css)
+[Précédent](https://github.com/TheHackingProject/bibliotheque-THP/wiki/outil_github)
 
 </div>
