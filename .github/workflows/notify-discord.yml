@@ -12,8 +12,7 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: |
-          curl -X POST -H "Content-Type: application/json" \
-          -d '{
+          echo '{
             "embeds": [{
               "title": "📣 Nouvelle Pull Request : ${{ github.event.pull_request.title }}",
               "url": "${{ github.event.pull_request.html_url }}",
@@ -22,7 +21,7 @@ jobs:
                 "url": "https://github.com/${{ github.actor }}",
                 "icon_url": "https://avatars.githubusercontent.com/${{ github.actor }}"
               },
-              "description": "${{ github.event.pull_request.body || 'Aucune description.' }}",
+              "description": "'"${{ github.event.pull_request.body }}"'",
               "timestamp": "${{ github.event.pull_request.created_at }}",
               "footer": {
                 "text": "${{ github.repository }}"
@@ -41,5 +40,9 @@ jobs:
                 }
               ]
             }]
-          }' \
-          $DISCORD_WEBHOOK
+          }' > payload.json
+
+          curl -X POST -H "Content-Type: application/json" \
+            -d @payload.json \
+            $DISCORD_WEBHOOK
+
