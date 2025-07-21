@@ -46,12 +46,11 @@ Nous valorisons les contributions open source, alors n’hésite pas à suggére
 - [Clean Code](https://github.com/TheHackingProject/course-clean-code)
 - [Data Analyst](https://github.com/TheHackingProject/data-analyst)
 - [Introduction à la Cyber Sécurité](https://github.com/TheHackingProject/cyber-security-introduction)
-
+- [DevOps](https://github.com/TheHackingProject/devops-introduction)
 
 A venir :
 
 - Web3
-- DevOps
 - Docker
 - IA Agent
 - UI&UX
