@@ -14,6 +14,8 @@ Cette liste permet d'afficher les outils mis en avant par THP pour nos étudiant
 ## 📚 Liste des Outils HTML
 
 - Cheat sheet complète avec outils CSS, HTML et JS => [htmlcheatsheet](https://htmlcheatsheet.com/)
+- Pour pratiquer des extraits HTML simples et tester en direct → [codelab](https://www.tutorialrepublic.com/codelab.php)
+- Pour un environnement plus complet et collaboratif → [playcode](https://playcode.io/html)
 
 <div align="center">
 
