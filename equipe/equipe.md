@@ -11,33 +11,40 @@ Cette page présente l'équipe actuelle de The Hacking Project et permet de cont
 
 ## 📚 L'équipe THP
 
-### Alice Dupont
-![Alice Dupont](https://picsum.photos/200?random=1)
-_Un petit slogan pour Alice._
+### Lilian Muller
+![Lilian Muller](https://picsum.photos/200?random=1)
+_Un petit slogan pour Lilian._
 
-[LinkedIn](https://www.linkedin.com/in/placeholder)
-<a href="carnet_de_alice_dupont.md"><button>Son carnet</button></a>
+[LinkedIn](https://www.linkedin.com/in/lilian-muller)
+<a href="carnet_de_lilian_muller.md"><button>Son carnet</button></a>
 
-### Bob Martin
-![Bob Martin](https://picsum.photos/200?random=2)
-_Un petit slogan pour Bob._
+### Jérémie Olivier
+![Jérémie Olivier](https://picsum.photos/200?random=2)
+_Un petit slogan pour Jérémie._
 
-[LinkedIn](https://www.linkedin.com/in/placeholder)
-<a href="carnet_de_bob_martin.md"><button>Son carnet</button></a>
+[LinkedIn](https://www.linkedin.com/in/jeremie-olivier)
+<a href="carnet_de_jeremie_olivier.md"><button>Son carnet</button></a>
 
-### Chloé Durand
-![Chloé Durand](https://picsum.photos/200?random=3)
-_Un petit slogan pour Chloé._
+### Elodie Destres
+![Elodie Destres](https://picsum.photos/200?random=3)
+_Un petit slogan pour Elodie._
 
-[LinkedIn](https://www.linkedin.com/in/placeholder)
-<a href="carnet_de_chloe_durand.md"><button>Son carnet</button></a>
+[LinkedIn](https://www.linkedin.com/in/elodie-destres)
+<a href="carnet_de_elodie_destres.md"><button>Son carnet</button></a>
 
-### David Moreau
-![David Moreau](https://picsum.photos/200?random=4)
-_Un petit slogan pour David._
+### Florian Van Camp
+![Florian Van Camp](https://picsum.photos/200?random=4)
+_Un petit slogan pour Florian._
 
-[LinkedIn](https://www.linkedin.com/in/placeholder)
-<a href="carnet_de_david_moreau.md"><button>Son carnet</button></a>
+[LinkedIn](https://www.linkedin.com/in/florian-van-camp)
+<a href="carnet_de_florian_van_camp.md"><button>Son carnet</button></a>
+
+### Nina Chamba
+![Nina Chamba](https://picsum.photos/200?random=5)
+_Un petit slogan pour Nina._
+
+[LinkedIn](https://www.linkedin.com/in/nina-chamba)
+<a href="carnet_de_nina_chamba.md"><button>Son carnet</button></a>
 
 <div align="center">
 
