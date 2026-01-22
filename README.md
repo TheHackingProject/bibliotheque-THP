@@ -39,4 +39,5 @@ Pour y contribuer, [créer une Pull Request](https://careerkarma.com/blog/git-pu
 - [Outils](https://github.com/TheHackingProject/bibliotheque-THP/wiki/sommaire_outils)
 - [Spécialisations](https://github.com/TheHackingProject/bibliotheque-THP/wiki/liste_spécialisations)
 - [Ressources Pédagogique Externe](https://github.com/TheHackingProject/bibliotheque-THP/wiki/ressources_pedagogique_externe)
+- [Équipe](https://github.com/TheHackingProject/bibliotheque-THP/wiki/equipe)
 
